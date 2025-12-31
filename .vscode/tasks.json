@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile & Run C++",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "-Command",
+                "g++ '${file}' -o '${fileDirname}/${fileBasenameNoExtension}.exe'; Start-Process '${fileDirname}/${fileBasenameNoExtension}.exe' -NoNewWindow -Wait"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared"
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
