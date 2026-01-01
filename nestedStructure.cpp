@@ -31,7 +31,7 @@ int main(){
     cout<<"Please, Enter your age, year you are in, your Phone number: "<<endl;
     cin>>s1.age>>s1.clg.year>>s1.addr.phoneNumber;
     cout<<"Enter your name, university name, city you live in, street number, kebele: "<<endl;
-    cin>>s1.name>>s1.clg.uniName>>s1.addr.cityName>>s1.addr.streetNumber>>s1.addr.keble;
+    cin>>s1.name>>s1.clg.uniName>>s1.addr.cityName>>s1.addr.streetNumber>>s1.addr.kebele;
     cout<<"Enter your major, gpa: "<<endl;
     cin>>s1.clg.major>>s1.gpa;
 
