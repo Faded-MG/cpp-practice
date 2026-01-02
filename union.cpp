@@ -22,4 +22,41 @@
 
 
 */
-#
+
+
+
+
+
+
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+union Data {
+    int four;
+    float quatro;
+    char one;
+};
+int main (){
+    Data d;
+    d.four=21;
+    cout<<"The value of Four is"<<d.four<<endl;
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Only one member is valid at a time*/
