@@ -14,9 +14,10 @@ int main() {
     Color c = GREEN;  
 
     if (c == GREEN) {
-        cout << "Color is green";
+        cout << "Color is green"<<endl;
     }
-
+  /*Hardly understood what this is all about, i will continue when mind isnt foggy*/
+   }
 
 
 
