@@ -7,10 +7,7 @@ using namespace std;
     float cgpa;
  };
 int main(){
-   Student s;
-   s.id = 1;
-   s.name = "Grock";
-   s.cgpa = 4.0;
+   Student s={ 01, "Gary", 3.9};
 
 
    cout<< "ID, Name, CGPA:    "<<s.id<<" "<<s.name<<" "<<s.cgpa<<endl;
@@ -21,7 +18,6 @@ int main(){
    cout<<"Student's ID: "<<sr.id<<endl;
    cout<<"Student's ID:  "<<s.id<<endl;
    s.id = 8;
-      cout<<"Student's ID: "<<sr.id<<endl;
-   cout<<"Student's ID:  "<<s.id<<endl;
+   
     return 0;
 }
