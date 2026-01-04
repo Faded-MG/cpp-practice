@@ -17,8 +17,8 @@ int main() {
         cout << "Color is green"<<endl;
     }
   /*Hardly understood what this is all about, i will continue when mind isnt foggy*/
-   }
-
+   
+ 
 
 
 return 0;
